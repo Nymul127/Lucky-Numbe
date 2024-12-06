@@ -6,7 +6,7 @@ int main()
     int count = 0;
     cin >> n;
     string str;
-    str = to_string(n);
+    str = to_string(n);// Convert long integer to String so that we will be access each integer digit of given Input.
 
     for (int i = 0; i < str.size(); i++)
     {
